@@ -81,7 +81,6 @@ end
 
 def movies_with_directors_set(source)
   director_index = 0
-  title_index = 0
   name_and_movies = []
   
   while director_index < source.length do
